@@ -1,5 +1,5 @@
 # SD-WAN demonstration configurations (4-D)
-------------
+
 4-D Demo configurations are a collection of configurations which complement the preceeding 3 Ds: Define, Design, and Deploy. These configrations are some samples of SD-WAN implementations for:
 
 - Branches with no central hub or Datacenter
@@ -26,7 +26,7 @@ The extensions are designed to be added if necessary and may be combined with ea
 Changes made to the base configuration may affect an extension's ability to be integrated. Changes to things such as policy ID numbers, SD-WAN rule numbers, BGP peer names, will need to be reflected in the extension configuration files as well.
 
 # Disclaimers
-------------
+
 These configurations are for SD-WAN and related aspects, such as policies, address objects, BGP, IPsec. This configuration alone does not provide sufficient security for a given location. Please review [FortiGate Best Practices](https://docs.fortinet.com/document/fortigate/7.0.0/best-practices/587898/getting-started) and [FortiGate Admin Guide](https://docs.fortinet.com/document/fortigate/7.0.5/administration-guide/954635/getting-started) to compliment this deployment.
 
 An IP address scheme for HUB LAN, Branch LAN and IPSec is chosen which reflects the principles discussed in the complementing 4D documents; design and define. Careful consideration should be taken when changing the scheme.
@@ -36,7 +36,7 @@ The WAN IP addresses are not discussed out side of the IPsec configuration on th
 Underlay routing is assumed to be present. No consideration is given for hub or branches internet reachability. It is assumed that any given FortiGate has full internet connectivity and public IP addresses. Furthermore, the two WAN links are assumed to be functioning in an equal cost multi path configuration where both gateways are present in the routing table.
 
 # Table of Contents
-------------
+
 Below illustrates the directory structure.
 
     Root directory/
