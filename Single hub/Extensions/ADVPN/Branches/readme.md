@@ -9,7 +9,7 @@ SD-WAN rules are modified to steer Branch-NET traffic across the ADVPN dynamic t
 
 Firewall policies are modified to permit Branch to Branch traffic.
 
-For more details on ADVPN and SD-WAN, please see the [ADVPN and shortcut paths](link) chapter of the FortiGate admin guide.
+For more details on ADVPN and SD-WAN, please see the [ADVPN and shortcut paths](https://docs.fortinet.com/document/fortigate/7.0.5/administration-guide/985659/advpn-and-shortcut-paths) chapter of the FortiGate admin guide.
 
 # Assumptions
 -------------
