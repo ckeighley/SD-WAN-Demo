@@ -55,24 +55,6 @@ Below illustrates the directory structure.
                         			dual_hub_Branch1_ADVPN.txt
                         			dual_hub_Branch2_ADVPN.txt 
 						readme.md
-		                SaaS Remote Internet Breakout/
-					Hub/
-						dual_hub_HUB1_remote-internet-breakout.txt
-						dual_hub_HUB2_remote-internet-breakout.txt
-						readme.md
-					Branches/
-						dual_hub_Branch1_remote-internet-breakout.txt
-						dual_hub_Branch2_remote-internet-breakout.txt
-						readme.md
-				BGP Neighbor Config for Symmetric Route Steering from Datacenter/
-					Hub/
-						dual_hub_HUB1_bgp-route-steering.txt
-						dual_hub_HUB2_bgp-route-steering.txt
-						readme.md
-					Branches/
-						dual_hub_Branch1_bgp-route-steering.txt
-						dual_hub_Branch2_bgp-route-steering.txt
-						readme.md
 				Adaptive FEC/
 					Hub/
 						dual_hub_HUB1_adaptive-fec.txt
@@ -83,6 +65,24 @@ Below illustrates the directory structure.
 						dual_hub_Branch2_adaptive-fec.txt
 						readme.md
 						DH_SD_overlay_bgp.drawio
+				BGP Neighbor Config for Symmetric Route Steering from Datacenter/
+					Hub/
+						dual_hub_HUB1_bgp-route-steering.txt
+						dual_hub_HUB2_bgp-route-steering.txt
+						readme.md
+					Branches/
+						dual_hub_Branch1_bgp-route-steering.txt
+						dual_hub_Branch2_bgp-route-steering.txt
+						readme.md
+				SaaS Remote Internet Breakout/
+					Hub/
+						dual_hub_HUB1_remote-internet-breakout.txt
+						dual_hub_HUB2_remote-internet-breakout.txt
+						readme.md
+					Branches/
+						dual_hub_Branch1_remote-internet-breakout.txt
+						dual_hub_Branch2_remote-internet-breakout.txt
+						readme.md
 			Hub/
 				dual_hub_HUB1_SD-WAN_Overlay.txt
 				dual_hub_HUB2_SD-WAN_Overlay.txt
@@ -106,22 +106,6 @@ Below illustrates the directory structure.
 						single_hub_Branch1_ADVPN.txt
 						single_hub_Branch2_ADVPN.txt
 						readme.md
-				SaaS Remote Internet Breakout/
-					Hub/
-						single_hub_HUB1_remote-internet-breakout.txt
-						readme.md
-					Branches/
-						single_hub_Branch1_remote-internet-breakout.txt
-                        			single_hub_Branch2_remote-internet-breakout.txt
-						readme.md
-				BGP Neighbor Config for Symmetric Route Steering from Datacenter/
-					Hub/
-						single_hub_HUB1_bgp-route-steering.txt
-						readme.md
-					Branches/
-						single_hub_Branch1_bgp-route-steering.txt
-						single_hub_Branch2_bgp-route-steering.txt
-						readme.md
 				Adaptive FEC/
 					Hub/
 						single_hub_HUB1_adaptive-fec.txt
@@ -129,6 +113,14 @@ Below illustrates the directory structure.
 					Branches/
 						single_hub_Branch1_adaptive-fec.txt
 						single_hub_Branch2_adaptive-fec.txt
+						readme.md
+				SaaS Remote Internet Breakout/
+					Hub/
+						single_hub_HUB1_remote-internet-breakout.txt
+						readme.md
+					Branches/
+						single_hub_Branch1_remote-internet-breakout.txt
+                        			single_hub_Branch2_remote-internet-breakout.txt
 						readme.md
 			Hub/
 				single_hub_HUB1_SD-WAN_Overlay.txt
