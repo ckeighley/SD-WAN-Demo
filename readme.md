@@ -39,12 +39,59 @@ Underlay routing is assumed to be present. No consideration is given for hub or 
 
 Below illustrates the directory structure.
 
-	Root directory/
-		Standalone SD-WAN/
-			Branch_only_underlay.drawio
-			Branch_only_underlay.png
-			Readme.md
-			standalone_Branch_SD-WAN.txt
+	SD-WAN-Demo/
+		Dual Hub/
+            		Hub/
+                		dual_hub_HUB1_SD-WAN_Overlay.txt
+                		dual_hub_HUB2_SD-WAN_Overlay.txt
+				readme.md
+			Branches/
+                		dual_hub_Branch1_SD-WAN_Overlay.txt
+                		dual_hub_Branch2_SD-WAN_Overlay.txt
+				readme.md
+			Extensions/
+                		ADVPN/
+					Hub/
+                        			dual_hub_HUB1_ADVPN.txt
+                        			dual_hub_HUB2_ADVPN.txt
+						readme.md
+					Branches/
+                        			dual_hub_Branch1_ADVPN.txt
+                        			dual_hub_Branch2_ADVPN.txt 
+						readme.md
+		                SaaS Remote Internet Breakout/
+                			Hub/
+                        			dual_hub_HUB1_remote-internet-breakout.txt
+                        			dual_hub_HUB2_remote-internet-breakout.txt
+						readme.md
+                    			Branches/
+                        			dual_hub_Branch1_remote-internet-breakout.txt
+                        			dual_hub_Branch2_remote-internet-breakout.txt
+						readme.md
+                		BGP Neighbor Config for Symmetric Route Steering from Datacenter/
+                    			Hub/
+                        			dual_hub_HUB1_bgp-route-steering.txt
+                        			dual_hub_HUB2_bgp-route-steering.txt
+						readme.md
+                    			Branches/
+                        			dual_hub_Branch1_bgp-route-steering.txt
+                        			dual_hub_Branch2_bgp-route-steering.txt
+						readme.md
+		                Adaptive FEC/
+                			Hub/
+                        			dual_hub_HUB1_adaptive-fec.txt
+                        			dual_hub_HUB2_adaptive-fec.txt
+						readme.md
+                    			Branches/
+                        			dual_hub_Branch1_adaptive-fec.txt
+                        			dual_hub_Branch2_adaptive-fec.txt
+						readme.md
+						DH_SD_overlay_bgp.drawio
+			DH_SD_overlay_bgp.png
+			DH_SD_overlay_ipsec.drawio
+			DH_SD_overlay_ipsec.png
+			DH_SD_underlay.drawio
+			DH_SD_underlay.png
         	Single Hub/
 			SD_overlay_bgp.drawio
 			SD_overlay_bgp.png
@@ -92,55 +139,8 @@ Below illustrates the directory structure.
                         			single_hub_Branch1_adaptive-fec.txt
                         			single_hub_Branch2_adaptive-fec.txt
 						readme.md
-        	Dual Hub/
-			DH_SD_overlay_bgp.drawio
-			DH_SD_overlay_bgp.png
-			DH_SD_overlay_ipsec.drawio
-			DH_SD_overlay_ipsec.png
-			DH_SD_underlay.drawio
-			DH_SD_underlay.png
-            		Hub/
-                		dual_hub_HUB1_SD-WAN_Overlay.txt
-                		dual_hub_HUB2_SD-WAN_Overlay.txt
-				readme.md
-			Branches/
-                		dual_hub_Branch1_SD-WAN_Overlay.txt
-                		dual_hub_Branch2_SD-WAN_Overlay.txt
-				readme.md
-			Extensions/
-                		ADVPN/
-					Hub/
-                        			dual_hub_HUB1_ADVPN.txt
-                        			dual_hub_HUB2_ADVPN.txt
-						readme.md
-					Branches/
-                        			dual_hub_Branch1_ADVPN.txt
-                        			dual_hub_Branch2_ADVPN.txt 
-						readme.md
-		                SaaS Remote Internet Breakout/
-                			Hub/
-                        			dual_hub_HUB1_remote-internet-breakout.txt
-                        			dual_hub_HUB2_remote-internet-breakout.txt
-						readme.md
-                    			Branches/
-                        			dual_hub_Branch1_remote-internet-breakout.txt
-                        			dual_hub_Branch2_remote-internet-breakout.txt
-						readme.md
-                		BGP Neighbor Config for Symmetric Route Steering from Datacenter/
-                    			Hub/
-                        			dual_hub_HUB1_bgp-route-steering.txt
-                        			dual_hub_HUB2_bgp-route-steering.txt
-						readme.md
-                    			Branches/
-                        			dual_hub_Branch1_bgp-route-steering.txt
-                        			dual_hub_Branch2_bgp-route-steering.txt
-						readme.md
-		                Adaptive FEC/
-                			Hub/
-                        			dual_hub_HUB1_adaptive-fec.txt
-                        			dual_hub_HUB2_adaptive-fec.txt
-						readme.md
-                    			Branches/
-                        			dual_hub_Branch1_adaptive-fec.txt
-                        			dual_hub_Branch2_adaptive-fec.txt
-						readme.md
+		Standalone SD-WAN/
+			Branch_only_underlay.drawio
+			Branch_only_underlay.png
+			Readme.md
+			standalone_Branch_SD-WAN.txt
