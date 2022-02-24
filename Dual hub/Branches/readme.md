@@ -1,12 +1,10 @@
 # SD-WAN dual hub with VPN overlay and BGP routing - Branches
-------------
 
 This configuration is for branches connecting back to dual hubs to access internal resources. There is also a local internet breakout so the branches may access public internet resources directly.
 
 For more details on SD-WAN rules, please see the [SD-WAN rules](https://docs.fortinet.com/document/fortigate/7.0.5/administration-guide/716691/sd-wan-rules) chapter of the FortiGate admin guide. 
 
 # Assumptions
--------------
 
 The following settings are specific to the demo and should be changed to fit your environment as necessary.
 
@@ -24,7 +22,7 @@ This applies to the VPN connections overlaying each WAN link. If the health-chec
 6) The VPN dialup gateways (HUB WAN interfaces) are statically configured IP addresses that will need to be changed to match your hub's public WAN IP addresses.
 
 # Changes between branches
--------------
+
 1) LAN subnet.
 
 2) Loopback interface IP address.
