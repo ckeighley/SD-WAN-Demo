@@ -93,12 +93,6 @@ Below illustrates the directory structure.
 			DH_SD_underlay.drawio
 			DH_SD_underlay.png
         	Single Hub/
-			SD_overlay_bgp.drawio
-			SD_overlay_bgp.png
-			SD_overlay_ipsec.drawio
-			SD_overlay_ipsec.png
-			SD_underlay.drawio
-			SD_underlay.png
 			Hub/
 				single_hub_HUB1_SD-WAN_Overlay.txt
 				readme.md
@@ -139,6 +133,12 @@ Below illustrates the directory structure.
 						single_hub_Branch1_adaptive-fec.txt
 						single_hub_Branch2_adaptive-fec.txt
 						readme.md
+			SD_overlay_bgp.drawio
+			SD_overlay_bgp.png
+			SD_overlay_ipsec.drawio
+			SD_overlay_ipsec.png
+			SD_underlay.drawio
+			SD_underlay.png
 		Standalone SD-WAN/
 			Branch_only_underlay.drawio
 			Branch_only_underlay.png
