@@ -2,6 +2,10 @@
 
 This configuration is to enable SaaS Remote Internet Breakout on the branches. This allows branches to access cloud applications through the Hub.
 
+The Spoke will route only Ringcentral VoIP traffic through hub overlays. 
+
+The SDWAN rule is set to 'set gateway enable' to override the route table and send traffic that matches this application through the hub.
+
 # Assumptions
 
 The following settings are specific to the demo and should be changed to fit your environment as necessary.
