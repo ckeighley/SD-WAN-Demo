@@ -41,13 +41,13 @@ Below illustrates the directory structure.
 
 	SD-WAN-Demo/
 		Dual Hub/
-            		Hub/
-                		dual_hub_HUB1_SD-WAN_Overlay.txt
-                		dual_hub_HUB2_SD-WAN_Overlay.txt
+			Hub/
+				dual_hub_HUB1_SD-WAN_Overlay.txt
+				dual_hub_HUB2_SD-WAN_Overlay.txt
 				readme.md
 			Branches/
-                		dual_hub_Branch1_SD-WAN_Overlay.txt
-                		dual_hub_Branch2_SD-WAN_Overlay.txt
+				dual_hub_Branch1_SD-WAN_Overlay.txt
+				dual_hub_Branch2_SD-WAN_Overlay.txt
 				readme.md
 			Extensions/
                 		ADVPN/
