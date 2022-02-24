@@ -22,6 +22,7 @@ This applies to the VPN connections overlaying each WAN link. If the health-chec
 5) The branch uses the local subnet 10.1.0.0/16. Adjust the "Branch-NET" object to match your LAN subnet.
 
 6) The VPN dialup gateways (HUB WAN interfaces) are statically configured IP addresses that will need to be changed to match your hub's public WAN IP addresses.
+7) BGP AS number is 65000 and the router ID is the loopback interface's ID: 172.16.200.x where x is unique to the branch.
 
 # Changes between branches
 -------------
