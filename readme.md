@@ -6,7 +6,11 @@
 - Single hub/DC and branches
 - Dual hub/DC and branches
 
-The branch with no central hub is a single configuration for one site and does not require any other configuration files, nor do any other files build upon this configuration.
+For further details on SD-WAN features and deployment methods, such as using FortiManager to manage your configuration and deployment, please see the [SD-WAN section](https://docs.fortinet.com/sdwan/7.0) of our document library.
+
+# Overview
+
+*Standalone SD-WAN* contains configuration for a branch with no central hub which is a standalone configuration that does not integrate with any other files in this repository.
 
 Single Hub and Dual hub both have a base configuration for the Hub(s) and Branches. These config files listed below are the base configuration which more advanced features (extensions) may be added to.
 
