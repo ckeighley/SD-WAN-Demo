@@ -23,10 +23,10 @@ This topology builds on the IPSec overlay topology to indicate how BGP settings 
 # Topology
 
 ### Underlay
-![Dual hub branch underlay](./DH_underlay.png?raw=true "Underlay") 
+![Dual hub branch underlay](./DH_SD_underlay.png?raw=true "Underlay") 
 
 ### IPsec Overlay
-![Dual hub branch overlay IPsec](./DH_overlay_ipsec.png?raw=true "IPsec Overlay") 
+![Dual hub branch overlay IPsec](./DH_SD_overlay_ipsec.png?raw=true "IPsec Overlay") 
 
 ### BGP Overlay
-![Dual hub branch overlay BGP](./DH_overlay_bgp.png?raw=true "BGP Overlay") 
+![Dual hub branch overlay BGP](./DH_SD_overlay_bgp.png?raw=true "BGP Overlay") 
