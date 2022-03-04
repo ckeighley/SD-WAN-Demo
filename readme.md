@@ -10,7 +10,7 @@ For further details on SD-WAN features and deployment methods, such as using For
 
 # Overview
 
-*Standalone SD-WAN* contains configuration for a branch with no central hub which is a standalone configuration that does not integrate with any other files in this repository.
+*Standalone SD-WAN* contains configuration for a branch with no central hub which. This configuration does not integrate with any other files in this repository.
 
 Single Hub and Dual hub both have a base configuration for the Hub(s) and Branches. These config files listed below are the base configuration which more advanced features (extensions) may be added to.
 
@@ -30,7 +30,10 @@ The extensions are designed to be added if necessary and may be combined with ea
 Changes made to the base configuration may affect an extension's ability to be integrated. Changes to things such as policy ID numbers, SD-WAN rule numbers, BGP peer names, will need to be reflected in the extension configuration files as well.
 
 # How to
-TODO
+Begin by selecting a base topology; standalone, single or dual hub.
+Review the topology's assumptions in the readme file and make the necessary changes to the configuration to match your deployment.
+Install the updated base configuration file(s) of that topology to your branch and if applicable, your hub(s).
+For single and dual hub topologies, you may add additional extensions by reviewing the extension readme, making the necessary changes based off the listed assumptions and installing the updated configuration.
 
 # Disclaimers
 
