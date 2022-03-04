@@ -31,8 +31,11 @@ Changes made to the base configuration may affect an extension's ability to be i
 
 # How to
 Begin by selecting a base topology; standalone, single or dual hub.
+
 Review the topology's assumptions in the readme file and make the necessary changes to the configuration to match your deployment.
+
 Install the updated base configuration file(s) of that topology to your branch and if applicable, your hub(s).
+
 For single and dual hub topologies, you may add additional extensions by reviewing the extension readme, making the necessary changes based off the listed assumptions and installing the updated configuration.
 
 # Disclaimers
