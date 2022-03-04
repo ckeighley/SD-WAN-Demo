@@ -13,3 +13,8 @@ The following settings are specific to the demo and should be changed to fit you
 2) This branch uses the local subnet 10.1.0.0/24. Adjust the "Branch-NET" object to match your LAN subnet.
 
 3) A health-check server is used to measure SLA. You should adjust this to better reflect your traffic of interest by defining your own performance SLA. Please see the [performance SLA](https://docs.fortinet.com/document/fortigate/7.0.5/administration-guide/584396/performance-sla) chapter of the FortiGate admin guide. 
+
+# Topology
+
+## Underlay
+![Standalone branch underlay](./Branch_only_underlay.png?raw=true "Underlay")
