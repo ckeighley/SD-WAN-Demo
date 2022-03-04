@@ -17,4 +17,4 @@ The following settings are specific to the demo and should be changed to fit you
 # Topology
 
 ## Underlay
-![Standalone branch underlay](./Branch_only_underlay.png?raw=true "Underlay")
+![Standalone branch underlay](./Branch_only_underlay.png?raw=true "Underlay") ![Standalone branch underlay](./Branch_only_underlay.png?raw=true "overlay") 
