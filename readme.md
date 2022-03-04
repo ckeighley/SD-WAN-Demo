@@ -29,6 +29,9 @@ The extensions are designed to be added if necessary and may be combined with ea
 
 Changes made to the base configuration may affect an extension's ability to be integrated. Changes to things such as policy ID numbers, SD-WAN rule numbers, BGP peer names, will need to be reflected in the extension configuration files as well.
 
+# How to
+TODO
+
 # Disclaimers
 
 These configurations are for SD-WAN and related aspects, such as policies, address objects, BGP, IPsec. This configuration alone does not provide sufficient security for a given location. Please review [FortiGate Best Practices](https://docs.fortinet.com/document/fortigate/7.0.0/best-practices/587898/getting-started) and [FortiGate Admin Guide](https://docs.fortinet.com/document/fortigate/7.0.5/administration-guide/954635/getting-started) to compliment this deployment.
